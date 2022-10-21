@@ -1,36 +1,32 @@
 #define  _CRT_SECURE_NO_WARNINGS 1
 #include<stdio.h>
 
+int Time[] = { 23,59,55 };
 
-int main()
+int *GetTime(void)
 {
-	//int a = 10;
-	/*printf("%p\n", &a);
 
-	int* pa = &a;
-	char ch = 'w';
-	char* pc = &ch;*/
-	/*int* pa = &a;
-	*pa = 20;
-	printf("%d\n", a);*/
+	return Time;
 
-	printf("%d\n", sizeof(char*));
-	printf("%d\n", sizeof(short*));
-	printf("%d\n", sizeof(int*));
-	printf("%d\n", sizeof(long*));
-	printf("%d\n", sizeof(long long*));
-	printf("%d\n", sizeof(float*));
-	printf("%d\n", sizeof(double*));
+}
 
 
 
+int main(void)
+
+{
+	int* pt;
+	pt = GetTime();
+
+	printf("pt[0]=%d\n", pt[0]);
+	printf("pt[1]=%d\n", pt[1]);
+	printf("pt[2]=%d\n", pt[2]);
 
 
 
 	return 0;
-
-
 }
+
 
 
 

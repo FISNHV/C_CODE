@@ -21,10 +21,10 @@
     <ClCompile Include="test_2.c">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="aaa.c">
+    <ClCompile Include="test_3.c">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="源.cpp">
+    <ClCompile Include="test_4.c">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
